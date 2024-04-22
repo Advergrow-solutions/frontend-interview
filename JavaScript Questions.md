@@ -6,12 +6,13 @@ Difference between var let and const.
 (If not explained temporal dead zone ask below output question)
 What will be the output of following code
 
+```
 console.log(i);
 var i = 0;
 
 console.log(j);
 const j = 0;
-
+```
 ---
 
 What is the difference between == and === in JavaScript?
@@ -28,6 +29,7 @@ What is optional chaining in javascript?
 
 What is closure in javascript? If answered then ask the following Output question
 
+```
 for (var i = 0; i < 3; i++) {
 setTimeout(() => console.log(i), 1);
 }
@@ -35,7 +37,7 @@ setTimeout(() => console.log(i), 1);
 for (let i = 0; i < 3; i++) {
 setTimeout(() => console.log(i), 1);
 }
-
+```
 ---
 
 What is event bubbling and event propagation in JavaScript?
@@ -48,6 +50,8 @@ What are Promises and how do they work?
 
 What will be the output of following code and explain why is it the output?
 What is deep copy and shallow copy in javascript?
+
+```
 const obj = {
   name: 'John',
   age: 30,
@@ -63,7 +67,7 @@ obj2.contact.email = 'newemail@example.com';
 
 console.log('Original Email:', obj.contact.email);
 console.log('Shallow Copy Email:', obj2.contact.email);
-
+```
 ---
 
 What is a callback in a javascript?
