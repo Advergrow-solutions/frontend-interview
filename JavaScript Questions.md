@@ -65,8 +65,8 @@ const obj2 = { ...obj };
 
 obj2.contact.email = 'newemail@example.com';
 
-console.log('Original Email:', obj.contact.email);
-console.log('Shallow Copy Email:', obj2.contact.email);
+console.log(obj.contact.email);
+console.log(obj2.contact.email);
 ```
 ---
 
