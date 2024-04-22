@@ -40,7 +40,7 @@ setTimeout(() => console.log(i), 1);
 ```
 ---
 
-What is event bubbling and event propagation in JavaScript?
+What is event bubbling and event capturing in JavaScript?
 
 ---
 
