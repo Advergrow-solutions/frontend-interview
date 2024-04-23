@@ -84,6 +84,17 @@ How do you check if a string starts with another string
 
 Write a program in javascript that takes an array as input and returns an array that only has the unique elements from the original array.
 
+---
+
+Output of the following code?
+
+```
+let newList = [1, 2, 3].push(4);
+
+console.log(newList.push(5));
+```
+---
+
 
 React Questions
 What is React and why would you use it instead of other similar frameworks like Angular or Vue?
