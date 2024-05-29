@@ -15,6 +15,23 @@ const j = 0;
 ```
 ---
 
+```
+const obj = {
+  name: "india"
+  age: 77
+}
+
+const newObj = obj
+
+newObj.name = "bharat"
+newObj.age = "10"
+
+console.log(obj);
+console.log(newObj);
+```
+
+---
+
 What is the difference between == and === in JavaScript?
 
 ---
