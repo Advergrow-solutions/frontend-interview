@@ -24,7 +24,7 @@ const obj = {
 const newObj = obj
 
 newObj.name = "bharat"
-newObj.age = "10"
+newObj.age = 10
 
 console.log(obj);
 console.log(newObj);
