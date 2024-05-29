@@ -17,7 +17,7 @@ const j = 0;
 
 ```
 const obj = {
-  name: "india"
+  name: "india",
   age: 77
 }
 
